@@ -2,12 +2,14 @@ package com.bpark.pivnetemailpinger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-public class Demo1Application {
+@EnableScheduling
+public class PivnetemailpingerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo1Application.class, args);
+		SpringApplication.run( PivnetemailpingerApplication.class, args );
 	}
 
 }

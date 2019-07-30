@@ -1,8 +1,8 @@
 ---
 applications:
-- name: emailapp
+- name: emailapp-pinger
   memory: 768M
   instances: 1
   random-route: false
-  path: ./target/pivnetemail-0.0.1-SNAPSHOT.jar
+  path: ./target/pivnetemailpinger-0.0.1-SNAPSHOT.jar
 

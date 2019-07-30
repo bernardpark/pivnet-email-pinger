@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bpark.pivnetemailpinger</groupId>
-	<artifactId>demo-1</artifactId>
+	<artifactId>pivnetemailpinger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo-1</name>
 	<description>Ping pivnetemail app</description>
